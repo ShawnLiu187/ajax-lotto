@@ -1,0 +1,97 @@
+
+
+h1, p, ul{
+    text-align: center;
+}
+
+.page h1, ul{
+        margin:0;  
+        padding:0;
+    }
+    
+
+.num_list{
+    list-style: none;
+ 
+}
+
+
+
+@media screen and (min-width: 0) {
+    body {
+        font-size:16px;
+    }
+}
+
+@media screen and (min-width:401px) {
+    body {
+        font-size: 30px;
+    }
+     input{
+        width:55px;
+        height: 30px;
+        font-size:30px;
+    }
+    
+    button{
+        width:180px;
+        height: 50px;
+        font-size:16px;
+    }
+}
+
+
+@media screen and (min-width: 780px) {
+    body {
+        font-size: 40px;
+    }
+
+    input{
+        width:70px;
+        height: 40px;
+        font-size:40px;
+    }
+    
+    button{
+        width:180px;
+        height: 50px;
+        font-size:16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 45px;
+    }
+    input{
+        width:80px;
+        height: 45px;
+        font-size:45px;
+    }
+    
+    button{
+        width:180px;
+        height: 45px;
+        font-size:20px;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    body {
+        font-size: 80px;
+    }
+    
+    input{
+        width:140px;
+        height: 80px;
+        font-size:80px;
+    }
+    
+    button{
+        width:350px;
+        height: 80px;
+        font-size:38px;
+    }
+    }
+
+
