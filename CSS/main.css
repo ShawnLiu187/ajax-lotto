@@ -17,13 +17,21 @@ h1, p, ul{
 
 
 
+/*
 @media screen and (min-width: 0) {
     body {
         font-size:16px;
     }
 }
+*/
 
 @media screen and (min-width:401px) {
+    .page{
+        width: 90%;
+    }
+    .num_list{
+        width: 90%;
+    }
     body {
         font-size: 30px;
     }
@@ -41,7 +49,14 @@ h1, p, ul{
 }
 
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 900px) {
+      .page {
+    width: 85%;
+  }
+  .num_list {
+    width: 33%;
+  
+  }
     body {
         font-size: 40px;
     }
@@ -60,6 +75,12 @@ h1, p, ul{
 }
 
 @media screen and (min-width: 1200px) {
+     .page {
+    width: 80%;
+  }
+  .num_list {
+    width: 25%;
+  }
     body {
         font-size: 45px;
     }
@@ -76,22 +97,6 @@ h1, p, ul{
     }
 }
 
-@media screen and (min-width: 1550px) {
-    body {
-        font-size: 80px;
-    }
-    
-    input{
-        width:140px;
-        height: 80px;
-        font-size:80px;
-    }
-    
-    button{
-        width:350px;
-        height: 80px;
-        font-size:38px;
-    }
-    }
+
 
 
